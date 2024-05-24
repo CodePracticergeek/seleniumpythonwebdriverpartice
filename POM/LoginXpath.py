@@ -1,0 +1,7 @@
+login_url = "https://www.saucedemo.com/v1/index.html"
+user_name = "standard_user"
+password = "secret_sauce"
+xpath_username ="//input[@id='user-name']"
+xpath_password = "//input[@id='password']"
+login_button = "login-button"
+expected_url = "https://www.saucedemo.com/v1/inventory.html"
