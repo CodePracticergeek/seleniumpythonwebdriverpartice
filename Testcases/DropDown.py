@@ -20,7 +20,7 @@ else:
 
 # Select By Visibale Text
 #Sekect By Value
-#select.select_by_value("2")
+select.select_by_value("2")
 #select By Index
 #select.select_by_index(1)
 
