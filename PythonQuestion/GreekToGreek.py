@@ -25,8 +25,23 @@ def prime_number():
             print("Is not a prime number")
 
 
+def reverseNuum():
+    number = int(input("Enter the number"))
+    reversenum = 0
+    number_str = str(number)
+    for digit in number_str:
+        digit = number%10
+        reversenum = int(digit)+ reversenum*10
+        number//=10
+    return reversenum
 
 
+
+# print(reverseNuum())
+
+original_Sring ="Hello World"
+reverse_string = original_Sring[::-1]
+print(reverse_string)
 
 
 
